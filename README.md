@@ -2,9 +2,9 @@
 ## Objective
 This project demonstrates basic hardware programming with the ESP32 microcontroller to control LEDs using different methods, including blinking, fading, push-button control, and light-dependent control through an LDR (Light Dependent Resistor). The project involves using the Arduino IDE for programming the ESP32 and setting up different circuits for each task.
 
-Tasks
-Task 1: Blinking LED on ESP32
-Requirements:
+## Tasks
+### Task 1: Blinking LED on ESP32
+#### Requirements:
 ESP32
 
 LED
@@ -15,18 +15,18 @@ Breadboard
 
 Jumper wires
 
-Deliverables:
+#### Deliverables:
 Source code for blinking an LED
 
 Circuit schematic
 
 Video demonstration
 
-Description:
+#### Description:
 Control an LED to blink at regular intervals using the ESP32. This will involve setting up the ESP32 with the Arduino IDE, wiring an LED through a resistor to the ESP32, and programming it to turn on and off repeatedly.
 
-Task 2: Fading LED on ESP32
-Requirements:
+### Task 2: Fading LED on ESP32
+#### Requirements:
 ESP32
 
 LED
@@ -37,18 +37,18 @@ Breadboard
 
 Jumper wires
 
-Deliverables:
+#### Deliverables:
 Source code for fading an LED
 
 Circuit schematic
 
 Video demonstration
 
-Description:
+#### Description:
 Gradually change the brightness of an LED using the ESP32's PWM capabilities. This task requires programming the ESP32 to adjust the LED brightness using analog output.
 
-Task 3: Push Button Controlled LED on ESP32
-Requirements:
+### Task 3: Push Button Controlled LED on ESP32
+#### Requirements:
 ESP32
 
 LED
@@ -63,18 +63,18 @@ Breadboard
 
 Jumper wires
 
-Deliverables:
+#### Deliverables:
 Source code for a push-button controlled LED
 
 Circuit schematic
 
 Video demonstration
 
-Description:
+#### Description:
 Use a push button to control an LED. This involves setting up a simple circuit with a button and programming the ESP32 to turn an LED on when the button is pressed.
 
-Task 4: LDR Light Sensor Controlled LED on ESP32
-Requirements:
+### Task 4: LDR Light Sensor Controlled LED on ESP32
+#### Requirements:
 ESP32
 
 LED
@@ -89,22 +89,19 @@ Breadboard
 
 Jumper wires
 
-Deliverables:
+#### Deliverables:
 Source code for an LDR-controlled LED
 
 Circuit schematic
 
 Video demonstration
 
-Description:
+#### Description:
 Use an LDR light sensor to control an LED. This project involves creating a circuit that uses the LDR to detect light levels and turns the LED on when it gets dark. The task includes setting up the LDR with a voltage divider on a breadboard, connecting it to the ESP32, and programming the ESP32 to read the light levels from the LDR and turn the LED on or off based on a predefined threshold.
 
-GitHub Repository Structure
+## GitHub Repository Structure
 The repository will be organized as follows:
 
-lua
-Copy
-Edit
 ESP32_LED_Control/
 │-- README.md                  (Project overview and instructions)
 │-- Task_1_Blinking_LED/
@@ -130,7 +127,7 @@ ESP32_LED_Control/
 │   │-- Circuit_Diagram.png    (Circuit schematic for Task 4)
 │   │-- Demo_Video.mp4         (Video demonstration for Task 4)
 │   │-- Report.pdf             (Report for Task 4)
-This repository includes:
+## This repository includes:
 A README file with project overview and instructions.
 
 A folder for each task containing:
